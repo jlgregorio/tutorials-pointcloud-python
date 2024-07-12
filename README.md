@@ -18,7 +18,19 @@ Tutorials are broken down as follows:
 
 ## Dependencies
 
-The code is in `python` and relies on `numpy`, `scipy`, and `matplotlib`.
+The code is in `python` and relies on `numpy`, `scipy`, `matplotlib`, and `jupyterlab`.
+
+These dependencies may installed with `pip` with
+
+    pip install numpy scipy matplotlib jupyterlab
+
+or via `conda` with
+
+    conda install numpy scipy matplotlib jupyterlab
+
+JupyterLab may be started using the terminal or Anaconda prompt simply by typing
+
+    jupyter lab
 
 ## Going further
 
@@ -41,7 +53,7 @@ Applications
 ### Ressources
 
 Books
-- Goulette, F. (1999). Modélisation 3D automatique: outils de géométrie différentielle. Presses des MINES.
+- Goulette, F. (1999). Modélisation 3D automatique: outils de géométrie différentielle. Presses des Mines.
 
 <!---
 TODO: add Articles, Videos, and Citation section
