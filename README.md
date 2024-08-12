@@ -4,7 +4,7 @@
   <p><img src="images/example_pointcloud.png"></p>
 </div>
 
-The use of pointclouds tends to increase over the years, as 3D acquisition and 3D modeling systems and software become more widely available. Pointclouds are nowadays used in many areas, such as computer-aided design, metrology, extended reality, robotics, and autonomous driving, to name just a few.
+The use of pointclouds tends to increase over the years, as 3D acquisition systems and 3D modeling software become more widely available. Pointclouds are nowadays used in many areas, such as computer-aided design, metrology, extended reality, robotics, and autonomous driving, to name just a few.
 
 These tutorials have been created for those wishing to learn a little bit more about the basics of pointcloud processing. Having gone through this stage during my Ph.D., I hope here to share some of what I have learned so far.
 
