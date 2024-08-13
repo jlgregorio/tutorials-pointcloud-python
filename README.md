@@ -18,7 +18,7 @@ Tutorials are broken down as follows:
 2. Spatial indexing and features (50% done)
 3. Registration (50% done)
 4. Segmentation (TBD)
-5. Primitive fitting (TBD)
+5. Primitive fitting (30% done)
 
 ## Dependencies
 
@@ -38,7 +38,7 @@ JupyterLab may be started using the terminal or Anaconda prompt simply by typing
 
 ## Going further
 
-The list does not pretend to be not exhaustive but may be a good starting point to dive deeper in the topic of pointcloud processing.
+The lists below do not pretend to be not exhaustive but may be a good starting point for those who whish to dive deeper in the topic of pointcloud processing.
 
 ### Software
 
@@ -61,7 +61,8 @@ Applications:
 ### Ressources
 
 Books:
-- Goulette, F. (1999). Modélisation 3D automatique: outils de géométrie différentielle. Presses des Mines.
+- Goulette, F. (1999). *Modélisation 3D automatique: outils de géométrie différentielle*. Presses des Mines.
+- Schneider, P., & Eberly, D. H. (2002). *Geometric tools for computer graphics*. Elsevier.
 
 Videos:
 - Florent Poux YouTube channel: www.youtube.com/@FlorentPoux (last accessed in August 2024)
