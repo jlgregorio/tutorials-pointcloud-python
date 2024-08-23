@@ -18,7 +18,7 @@ Tutorials are broken down as follows:
 2. Spatial indexing (50% done)
 3. Registration (50% done)
 4. Segmentation (30% done)
-5. Primitive fitting (75% done)
+5. Primitive fitting
 
 ## Dependencies
 
