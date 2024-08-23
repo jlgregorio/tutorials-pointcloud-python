@@ -58,7 +58,7 @@ Applications:
 - **ParaView**, an open-source visualization application (with Python scripting capabilities)
 - **Blender**, an open-source  3D computer graphics software that has pointcloud processing capabilities (with Python scripting capabilities)
 
-### Ressources
+### Resources 
 
 Books:
 - Goulette, F. (1999). *Modélisation 3D automatique: outils de géométrie différentielle*. Presses des Mines.
