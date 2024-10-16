@@ -36,3 +36,19 @@ def plot_voxel(positions, size, **kwargs):
     g = np.concatenate(g)
     
     return Poly3DCollection(g, **kwargs)
+
+
+def trisurf_plane(center, normal, tangent, length, width):
+    
+    
+    bitangent = np.cross(normal, tangent)
+    
+    vertices = np.empty((4, 3), dtype=float)
+    vertices[0] = center + length/2 * tangent + width/2 * bitangent
+    vertices[1] = center + length/2 * tangent - width/2 * bitangent
+    vertices[2] = center - length/2 * tangent + width/2 * bitangent
+    vertices[3] = center - length/2 * tangent - width/2 * bitangent
+    
+    return vertices[:,0], vertices[:,1], vertices[:,2]
+
+
