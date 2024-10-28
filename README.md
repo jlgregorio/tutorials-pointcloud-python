@@ -17,7 +17,7 @@ Tutorials are broken down as follows:
 1. Basic operations
 2. Spatial indexing (50% done)
 3. Registration
-4. Segmentation (50% done)
+4. Segmentation (60% done)
 5. Primitive fitting
 
 ## Dependencies
@@ -47,6 +47,7 @@ Libraries:
 - **Open3D**, an open-source library for 3D data processing (in C++ and Python, with a 3D viewer app).
 - **CGAL**, an open-source library for efficient and reliable geometric algorithms (in C++, with Python bidings)
 - **PCL**, a standalone, large scale, open project for 2D/3D image and pointcloud processing (in C++, with Python bidings)
+- **PDAL**, an open-source library for translating and manipulating pointcloud data (in C++, with Python support)
 - **VTK**, an open-source software for manipulating and displaying scientific data (in C++, with wrappers in Python, Java and Tcl)
 - **PyMeshLab**, a Python library that interfaces to MeshLab (see below)
 - **CloudComPy**, a Python wrapper for CloudCompare (see below)
@@ -61,8 +62,9 @@ Applications:
 ### Resources 
 
 Books:
-- Goulette, F. (1999). *Modélisation 3D automatique: outils de géométrie différentielle*. Presses des Mines.
+- Liu, S., Zhang, M., Kadam, P., & Kuo, C. C. J. (2021). *3D Point Cloud Analysis: Traditional, Deep Learning, and Explainable Machine Learning Methods*. Springer.
 - Schneider, P., & Eberly, D. H. (2002). *Geometric tools for computer graphics*. Elsevier.
+- Goulette, F. (1999). *Modélisation 3D automatique : outils de géométrie différentielle*. Presses des Mines.
 
 Videos:
 - Florent Poux YouTube channel: www.youtube.com/@FlorentPoux (last accessed in August 2024)
