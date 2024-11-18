@@ -17,7 +17,7 @@ Tutorials are broken down as follows:
 1. Basic operations
 2. Spatial indexing (50% done)
 3. Registration
-4. Segmentation (60% done)
+4. Segmentation
 5. Primitive fitting
 
 ## Dependencies
