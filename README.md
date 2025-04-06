@@ -14,11 +14,11 @@ The notebooks have been designed to make pointcloud processing algorithms easier
 
 Tutorials are broken down as follows:
 
-1. Basic operations
-2. Spatial indexing (50% done)
-3. Registration
-4. Segmentation
-5. Primitive fitting
+1. Basic operations: pointcloud attributes, transformations (translations, rotations, reflections, scaling) & subsampling.
+2. Spatial indexing (50% done): distance, neighborhoods, "brute force" search, voxel grids, (octrees & kd-trees).
+3. Registration: corresponding sets & non-corresponding sets (Iterative Closest Point & Principal Axis Alignment).
+4. Segmentation: Region Growing, Hough Transform & RANSAC.
+5. Primitive fitting: Plane, Sphere, Cylinder, Cone & Torus.
 
 ## Dependencies
 
@@ -62,6 +62,7 @@ Applications:
 ### Resources 
 
 Books:
+- Poux, F. (2025). *3D Data Science with Python*. O'Reilly Media.
 - Liu, S., Zhang, M., Kadam, P., & Kuo, C. C. J. (2021). *3D Point Cloud Analysis: Traditional, Deep Learning, and Explainable Machine Learning Methods*. Springer.
 - Schneider, P., & Eberly, D. H. (2002). *Geometric tools for computer graphics*. Elsevier.
 - Goulette, F. (1999). *Modélisation 3D automatique : outils de géométrie différentielle*. Presses des Mines.
