@@ -6,9 +6,9 @@
 
 The use of pointclouds tends to increase over the years, as 3D acquisition systems and 3D modeling software become more widely available. Pointclouds are nowadays used in many areas, such as computer-aided design, metrology, extended reality, robotics, and autonomous driving, to name just a few.
 
-These tutorials have been created for those wishing to learn a little bit more about the basics of pointcloud processing. Having gone through this stage during my Ph.D., I hope here to share some of what I have learned so far.
+These tutorials are for those wishing to learn a little bit more about the basics of pointcloud processing. Having gone through this stage during my Ph.D., I hope here to share some of what I have learned so far.
 
-The notebooks have been designed to make pointcloud processing algorithms easier to understand, without compromising performance too much and trying to minimize the use of specialized third-party software. They require basic knowledge of Python and its main scientific libraries.
+The notebooks are designed to make pointcloud processing algorithms easier to understand, without compromising performance too much and trying to minimize the use of specialized third-party software. They require basic knowledge of Python and its main scientific libraries.
 
 ## Content
 
@@ -64,6 +64,8 @@ Applications:
 Books:
 - Poux, F. (2025). *3D Data Science with Python*. O'Reilly Media.
 - Liu, S., Zhang, M., Kadam, P., & Kuo, C. C. J. (2021). *3D Point Cloud Analysis: Traditional, Deep Learning, and Explainable Machine Learning Methods*. Springer.
+- Vosselman, G., & Maas, H. G. (2010). *Airborne and terrestrial laser scanning*. Whittles Publishing.
+- Samet, H. (2006). *Foundations of multidimensional and metric data structures*. Morgan Kaufmann.
 - Schneider, P., & Eberly, D. H. (2002). *Geometric tools for computer graphics*. Elsevier.
 - Goulette, F. (1999). *Modélisation 3D automatique : outils de géométrie différentielle*. Presses des Mines.
 
