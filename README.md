@@ -38,26 +38,27 @@ JupyterLab may be started using the terminal or Anaconda prompt simply by typing
 
 ## Going further
 
-The lists below do not pretend to be not exhaustive but may be a good starting point for those who whish to dive deeper in the topic of pointcloud processing.
+The lists below do not pretend to be not exhaustive but may be a good starting point for those who whish to dive deeper in the topic of pointcloud processing with Python.
 
 ### Software
 
 Libraries:
 
-- **Open3D**, an open-source library for 3D data processing (in C++ and Python, with a 3D viewer app).
 - **CGAL**, an open-source library for efficient and reliable geometric algorithms (in C++, with Python bidings)
+- **CloudComPy**, a Python wrapper for CloudCompare (see below)
+- **Open3D**, an open-source library for 3D data processing (in C++ and Python, with a 3D viewer app)
 - **PCL**, a standalone, large scale, open project for 2D/3D image and pointcloud processing (in C++, with Python bidings)
 - **PDAL**, an open-source library for translating and manipulating pointcloud data (in C++, with Python support)
-- **VTK**, an open-source software for manipulating and displaying scientific data (in C++, with wrappers in Python, Java and Tcl)
 - **PyMeshLab**, a Python library that interfaces to MeshLab (see below)
-- **CloudComPy**, a Python wrapper for CloudCompare (see below)
+- **PyVista**, a library providing a pythonic interface to VTK (see below)
+- **VTK**, an open-source software for manipulating and displaying scientific data (in C++, with wrappers in Python, Java and Tcl)
 
 Applications:
 
+- **Blender**, an open-source  3D computer graphics software that may be used to visualize and process pointclouds (with Python scripting capabilities)
 - **CloudCompare**, an open-source 3D pointcloud (and triangular mesh) processing software (with Python scripting capabilities through **CloudComPy**)
 - **MeshLab**, an open-source 3D triangular meshes (and pointclouds) processing and editing software (with Python scripting capabilities through **PyMeshLab**)
 - **ParaView**, an open-source visualization application (with Python scripting capabilities)
-- **Blender**, an open-source  3D computer graphics software that has pointcloud processing capabilities (with Python scripting capabilities)
 
 ### Resources 
 
@@ -70,7 +71,8 @@ Books:
 - Goulette, F. (1999). *Modélisation 3D automatique : outils de géométrie différentielle*. Presses des Mines.
 
 Videos:
-- Florent Poux YouTube channel: www.youtube.com/@FlorentPoux (last accessed in August 2024)
+- Florent Poux YouTube channel: www.youtube.com/@FlorentPoux (last accessed in June 2025)
+- CloudCompare playlist on Daniel Girardeau-Montaut channel www.youtube.com/@danielgirardeau-montaut9044 (last accessed in June 2025)
 
 ## Citation
 
