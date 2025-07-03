@@ -15,7 +15,7 @@ The notebooks are designed to make pointcloud processing algorithms easier to un
 Tutorials are broken down as follows:
 
 1. Basic operations: pointcloud attributes, transformations (translations, rotations, reflections, scaling) & subsampling.
-2. Spatial indexing (50% done): distance, neighborhoods, "brute force" search, voxel grids, (octrees & kd-trees).
+2. Spatial indexing: distance, neighborhoods, "brute force" search, voxel grids, octrees & kd-trees.
 3. Registration: corresponding sets & non-corresponding sets (Iterative Closest Point & Principal Axis Alignment).
 4. Segmentation: Region Growing, Hough Transform & RANSAC.
 5. Primitive fitting: Plane, Sphere, Cylinder, Cone & Torus.
