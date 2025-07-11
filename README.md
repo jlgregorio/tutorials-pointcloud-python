@@ -15,10 +15,10 @@ The notebooks are designed to make pointcloud processing algorithms easier to un
 Tutorials are broken down as follows:
 
 1. Basic operations: pointcloud attributes, transformations (translations, rotations, reflections, scaling) & subsampling.
-2. Spatial indexing: distance, neighborhoods, "brute force" search, voxel grids, octrees & kd-trees.
+2. Spatial indexing: voxel grids, octrees & kd-trees.
 3. Registration: corresponding sets & non-corresponding sets (Iterative Closest Point & Principal Axis Alignment).
 4. Segmentation: Region Growing, Hough Transform & RANSAC.
-5. Primitive fitting: Plane, Sphere, Cylinder, Cone & Torus.
+5. Primitive fitting: plane, sphere, cylinder, cone & torus.
 
 ## Dependencies
 
@@ -72,7 +72,7 @@ Books:
 
 Videos:
 - Florent Poux YouTube channel: www.youtube.com/@FlorentPoux (last accessed in June 2025)
-- CloudCompare playlist on Daniel Girardeau-Montaut channel www.youtube.com/@danielgirardeau-montaut9044 (last accessed in June 2025)
+- CloudCompare playlist on Daniel Girardeau-Montaut YouTube channel www.youtube.com/@danielgirardeau-montaut9044 (last accessed in June 2025)
 
 ## Citation
 
