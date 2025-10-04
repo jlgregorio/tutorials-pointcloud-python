@@ -19,6 +19,7 @@ Tutorials are broken down as follows:
 3. Registration: corresponding sets & non-corresponding sets (Iterative Closest Point & Principal Axis Alignment).
 4. Segmentation: Region Growing, Hough Transform & RANSAC.
 5. Primitive fitting: plane, sphere, cylinder, cone & torus.
+6. Normals and descriptors: normals estimation/orientation and other local descriptors.
 
 ## Dependencies
 

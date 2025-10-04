@@ -2,6 +2,7 @@ import numpy as np
 
 
 def rotation_zyx(theta_x=0., theta_y=0., theta_z=0.):
+    """Construct a (3, 3) rotation matrix from ZYX Euler angles."""
 
     R_x = np.array([
         [1., 0., 0.],
@@ -44,3 +45,28 @@ def rotation_f_to_t(f, t):
     ])
     
     return R
+
+
+def cartesian_to_spherical(u):
+    """Cartesian to spherical coordinates (only theta and phi)"""
+
+    x, y, z = u
+    
+    theta = np.arccos(z/np.sqrt(x**2 + y**2 + z**2))
+    
+    if np.isclose(x, 0.0) and np.isclose(y, 0.0):
+        phi = 0.0
+    else:
+        phi = np.sign(y) * np.arccos(x / np.sqrt(x**2 + y**2))
+
+    return theta, phi
+
+
+def spherical_to_cartesian(u):
+    """Spherical to cartesian coordinates (unit vector)"""
+    
+    theta, phi = u
+
+    return np.array([np.cos(phi)*np.sin(theta),
+                     np.sin(phi)*np.sin(theta),
+                     np.cos(theta)])
