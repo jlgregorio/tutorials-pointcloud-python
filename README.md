@@ -20,13 +20,19 @@ Tutorials are broken down as follows:
 3. Registration: corresponding sets & non-corresponding sets (Iterative Closest Point & Principal Axis Alignment).
 4. Segmentation: Region Growing, Hough Transform & RANSAC.
 5. Primitive fitting: plane, sphere, cylinder, cone & torus.
-6. Normals and descriptors: normals estimation/orientation and other local descriptors.
+6. Normals and descriptors: normals, curvatures and 2D/3D features.
+
+To do list:
+- Machine learning
+- Deep learning
+- Subsampling
+
 
 ## Dependencies
 
 The code is in `python` and relies on `numpy`, `scipy`, `matplotlib`, and `jupyterlab`.
 
-These dependencies may installed with `pip` with
+These dependencies may be installed with `pip` with
 
     pip install numpy scipy matplotlib jupyterlab
 
@@ -44,7 +50,7 @@ The lists below do not pretend to be not exhaustive but may be a good starting p
 
 ### Software
 
-Libraries:
+Libraries (in alphabetical order):
 
 - **CGAL**, an open-source library for efficient and reliable geometric algorithms (in C++, with Python bidings)
 - **CloudComPy**, a Python wrapper for CloudCompare (see below)
@@ -55,7 +61,7 @@ Libraries:
 - **PyVista**, a library providing a pythonic interface to VTK (see below)
 - **VTK**, an open-source software for manipulating and displaying scientific data (in C++, with wrappers in Python, Java and Tcl)
 
-Applications:
+Applications (in alphabetical order):
 
 - **Blender**, an open-source  3D computer graphics software that may be used to visualize and process pointclouds (with Python scripting capabilities)
 - **CloudCompare**, an open-source 3D pointcloud (and triangular mesh) processing software (with Python scripting capabilities through **CloudComPy**)
@@ -64,7 +70,7 @@ Applications:
 
 ### Resources 
 
-Books:
+Books (in reverse chronological order):
 - Poux, F. (2025). *3D Data Science with Python*. O'Reilly Media.
 - Liu, S., Zhang, M., Kadam, P., & Kuo, C. C. J. (2021). *3D Point Cloud Analysis: Traditional, Deep Learning, and Explainable Machine Learning Methods*. Springer.
 - Vosselman, G., & Maas, H. G. (2010). *Airborne and terrestrial laser scanning*. Whittles Publishing.
@@ -72,15 +78,15 @@ Books:
 - Schneider, P., & Eberly, D. H. (2002). *Geometric tools for computer graphics*. Elsevier.
 - Goulette, F. (1999). *Modélisation 3D automatique : outils de géométrie différentielle*. Presses des Mines.
 
-Videos:
-- Florent Poux YouTube channel: www.youtube.com/@FlorentPoux (last accessed in June 2025)
-- CloudCompare playlist on Daniel Girardeau-Montaut YouTube channel www.youtube.com/@danielgirardeau-montaut9044 (last accessed in June 2025)
+Videos (in alphabetical order):
+- CloudCompare playlist on Daniel Girardeau-Montaut YouTube channel www.youtube.com/@danielgirardeau-montaut9044 (last accessed in October 2025)
+- Florent Poux YouTube channel: www.youtube.com/@FlorentPoux (last accessed in October 2025)
 
 ## Citation
 
-You are mostly free to share and reuse this work as you wish. Please do not forget to cite it if you do!
+You are free to use, modify, and distribute the code as you wish. You are free to share the associated text (explanations) as long as you give appropriate credit, do not use them for commercial purposes, and do not create derivative works.
 
-An example using BibTeX:
+An example of citation using BibTeX:
 
     @unpublished{gregorio2024tutorials,
          author={Grégorio, Jean-Loup},
