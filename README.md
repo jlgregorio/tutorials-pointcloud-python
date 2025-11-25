@@ -1,9 +1,5 @@
 # Tutorials for pointcloud processing in Python
 
-<div align="center">
-  <p><img src="images/example_pointcloud.png"></p>
-</div>
-
 The use of pointclouds tends to increase over the years, as 3D acquisition systems and 3D modeling software become more widely available. Pointclouds are nowadays used in many areas, such as computer-aided design, metrology, extended reality, robotics, and autonomous driving, to name just a few.
 
 These tutorials are for those wishing to learn a little bit more about the basics of pointcloud processing. Having gone through this stage during my Ph.D., I hope here to share some of what I have learned so far.
@@ -14,18 +10,18 @@ The notebooks are designed to make pointcloud processing algorithms easier to un
 
 Tutorials are broken down as follows:
 
-0. Basics: structure and attributes.
-1. Spatial transformations: translations, rotations, reflections & scaling.
-2. Spatial indexing: voxel grids, octrees & kd-trees.
-3. Registration: corresponding sets & non-corresponding sets (Iterative Closest Point & Principal Axis Alignment).
-4. Segmentation: Region Growing, Hough Transform & RANSAC.
-5. Primitive fitting: plane, sphere, cylinder, cone & torus.
-6. Normals and descriptors: normals, curvatures and 2D/3D features.
+0. [Basics](0.basics.ipynb): structure and attributes.
+1. [Spatial transformations](1.transformations.ipynb): translations, rotations, reflections & scaling.
+2. [Spatial indexing](2.spatial_indexing.ipynb): voxel grids, octrees & kd-trees.
+3. [Registration](3.registration.ipynb): corresponding sets & non-corresponding sets (Iterative Closest Point & Principal Axis Alignment).
+4. [Segmentation](4.segmentation.ipynb): Region Growing, Hough Transform & RANSAC.
+5. [Primitive fitting](5.primitive_fitting.ipynb): plane, sphere, cylinder, cone & torus.
+6. [Normals and descriptors](6.normals_and_descriptors.ipynb): normals, curvatures and 2D/3D features.
 
 To do list:
-- Machine learning
-- Deep learning
-- Subsampling
+* Machine learning
+* Deep learning
+* Subsampling
 
 
 ## Dependencies
@@ -82,9 +78,9 @@ Videos (in alphabetical order):
 - CloudCompare playlist on Daniel Girardeau-Montaut YouTube channel www.youtube.com/@danielgirardeau-montaut9044 (last accessed in October 2025)
 - Florent Poux YouTube channel: www.youtube.com/@FlorentPoux (last accessed in October 2025)
 
-## Citation
+## Reusing and distributing
 
-You are free to use, modify, and distribute the code as you wish. You are free to share the associated text (explanations) as long as you give appropriate credit, do not use them for commercial purposes, and do not create derivative works.
+You are free to share and adapt the content of these notebooks as long as you give appropriate credit and do not use it for commercial purposes. You are free to use, modify, and distribute the code contained in these notebooks as you wish. You can view the full [license here](LICENSE.md).
 
 An example of citation using BibTeX:
 
