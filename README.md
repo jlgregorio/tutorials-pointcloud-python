@@ -13,15 +13,17 @@ Tutorials are broken down as follows:
 0. [Basics](0.basics.ipynb): structure and attributes.
 1. [Spatial transformations](1.transformations.ipynb): translations, rotations, reflections & scaling.
 2. [Spatial indexing](2.spatial_indexing.ipynb): voxel grids, octrees & kd-trees.
-3. [Registration](3.registration.ipynb): corresponding sets & non-corresponding sets (Iterative Closest Point & Principal Axis Alignment).
-4. [Segmentation](4.segmentation.ipynb): Region Growing, Hough Transform & RANSAC.
-5. [Primitive fitting](5.primitive_fitting.ipynb): plane, sphere, cylinder, cone & torus.
-6. [Normals and descriptors](6.normals_and_descriptors.ipynb): normals, curvatures and 2D/3D features.
+3. [Subsampling](3.subsampling.ipynb): random, stride, voxel, octree, FPS, radius & Poisson.
+5. [Normals and curvatures](5.normals_and_curvatures.ipynb): normals & curvatures.
+6. [Descriptors](6.descriptors.ipynb): 2D/3D features.
+7. [Segmentation](7.segmentation.ipynb): region growing, Hough Transform & RANSAC.
+8. [Primitive fitting](8.primitive_fitting.ipynb): plane, sphere, cylinder, cone & torus.
+9. [Registration](9.registration.ipynb): corresponding sets, Iterative Closest Point & global alignment.
 
 To do list:
-* Machine learning
-* Deep learning
-* Subsampling
+4. Cleaning
+10. Machine learning
+11. Deep learning
 
 
 ## Dependencies
