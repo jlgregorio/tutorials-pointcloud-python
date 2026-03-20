@@ -16,7 +16,7 @@ Tutorials are broken down as follows:
 3. [Subsampling](3.subsampling.ipynb): random, stride, voxel, octree, FPS, radius & Poisson.
 5. [Normals and curvatures](5.normals_and_curvatures.ipynb): normals & curvatures.
 6. [Descriptors](6.descriptors.ipynb): 2D/3D features.
-7. [Segmentation](7.segmentation.ipynb): region growing, Hough Transform & RANSAC.
+7. [Segmentation](7.segmentation.ipynb): region growing, Hough Transform, RANSAC & graph-based.
 8. [Primitive fitting](8.primitive_fitting.ipynb): plane, sphere, cylinder, cone & torus.
 9. [Registration](9.registration.ipynb): corresponding sets, Iterative Closest Point & global alignment.
 

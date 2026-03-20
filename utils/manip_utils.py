@@ -70,3 +70,22 @@ def spherical_to_cartesian(u):
     return np.array([np.cos(phi)*np.sin(theta),
                      np.sin(phi)*np.sin(theta),
                      np.cos(theta)])
+
+
+def orthonormal_basis_from_w(w):
+    """Construct an orthonormal basis given a unit vector w as the third vector."""
+
+    # Choose an arbitrary vector that is not parallel to w
+    if np.isclose(w[0], 0.) and np.isclose(w[1], 0.):
+        v = np.array([1., 0., 0.])
+    else:
+        v = np.array([0., 0., 1.])
+
+    # Compute the first basis vector as the cross product of w and v
+    u = np.cross(w, v)
+    u /= np.linalg.norm(u)
+
+    # Compute the second basis vector as the cross product of w and u
+    v = np.cross(w, u)
+
+    return np.array([u, v, w]) 
