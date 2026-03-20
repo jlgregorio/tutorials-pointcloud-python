@@ -56,6 +56,7 @@ Libraries (in alphabetical order):
 - **PCL**, a standalone, large scale, open project for 2D/3D image and pointcloud processing (in C++, with Python bidings)
 - **PDAL**, an open-source library for translating and manipulating pointcloud data (in C++, with Python support)
 - **PyMeshLab**, a Python library that interfaces to MeshLab (see below)
+- **PyntCloud**, a Python library for working with 3D point clouds leveraging the power of the Python scientific stack
 - **PyVista**, a library providing a pythonic interface to VTK (see below)
 - **VTK**, an open-source software for manipulating and displaying scientific data (in C++, with wrappers in Python, Java and Tcl)
 
@@ -77,8 +78,8 @@ Books (in reverse chronological order):
 - Goulette, F. (1999). *Modélisation 3D automatique : outils de géométrie différentielle*. Presses des Mines.
 
 Videos (in alphabetical order):
-- CloudCompare playlist on Daniel Girardeau-Montaut YouTube channel www.youtube.com/@danielgirardeau-montaut9044 (last accessed in October 2025)
-- Florent Poux YouTube channel: www.youtube.com/@FlorentPoux (last accessed in October 2025)
+- CloudCompare playlist on Daniel Girardeau-Montaut YouTube channel www.youtube.com/@danielgirardeau-montaut9044 (last accessed in March 2026)
+- Florent Poux YouTube channel: www.youtube.com/@FlorentPoux (last accessed in March 2026)
 
 ## Reusing and distributing
 
@@ -89,5 +90,5 @@ An example of citation using BibTeX:
     @unpublished{gregorio2024tutorials,
          author={Grégorio, Jean-Loup},
          title={Tutorials for pointcloud processing in Python},
-         year={2024},
+         year={2026},
     }
