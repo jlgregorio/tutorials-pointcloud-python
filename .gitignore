@@ -1,0 +1,8 @@
+*.pyc
+.ipynb_checkpoints/
+latex/*
+!/latex/tutorials_pointcloud_python.tex
+!/latex/introduction.tex
+!/latex/going_further.tex
+!/latex/references.bib
+!/latex/process_notebooks_latex.py

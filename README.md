@@ -1,0 +1,94 @@
+# Tutorials for pointcloud processing in Python
+
+The use of pointclouds has steadily increased over the years, driven by the growing availability of 3D acquisition systems and advanced 3D processing and visualization software. Pointclouds are nowadays used in many areas, including engineering and manufacturing, architecture and construction, cultural heritage documentation and preservation, robotics and autonomous systems, extended and immersive reality, geospatial and environmental analysis, to name just a few.
+
+These tutorials are for those wishing to learn a little bit more about the basics of pointcloud processing. Having gone through this stage during my Ph.D., I hope here to share some of what I have learned so far.
+
+The notebooks are designed to make pointcloud processing algorithms easier to understand, without compromising performance too much and trying to minimize the use of specialized third-party software. They require basic knowledge of Python and its main scientific libraries.
+
+## Content
+
+Tutorials are broken down as follows:
+
+0. [Basics](0.basics.ipynb): structure and attributes.
+1. [Spatial transformations](1.transformations.ipynb): translations, rotations, reflections & scaling.
+2. [Spatial indexing](2.spatial_indexing.ipynb): voxel grids, octrees & kd-trees.
+3. [Subsampling](3.subsampling.ipynb): random, stride, voxel, octree, FPS, radius & Poisson.
+4. [Cleaning](4.cleaning.ipynb): outlier removal & denoising
+5. [Normals and curvatures](5.normals_and_curvatures.ipynb): normals & curvatures.
+6. [Descriptors](6.descriptors.ipynb): eigenvalue-based, PFH, FPFH & SHOT.
+7. [Segmentation](7.segmentation.ipynb): region growing, Hough Transform, RANSAC & graph-based.
+8. [Primitive fitting](8.primitive_fitting.ipynb): plane, sphere, cylinder, cone & torus.
+9. [Registration](9.registration.ipynb): corresponding sets, Iterative Closest Point & global alignment.
+
+To do list:
+10. Machine learning
+11. Deep learning
+
+
+## Dependencies
+
+The code is in `python` and relies on `numpy`, `scipy`, `matplotlib`, and `jupyterlab`.
+
+These dependencies may be installed with `pip` with
+
+    pip install numpy scipy matplotlib jupyterlab
+
+or via `conda` with
+
+    conda install numpy scipy matplotlib jupyterlab
+
+JupyterLab may be started using the terminal or Anaconda prompt simply by typing
+
+    jupyter lab
+
+## Going further
+
+The lists of software and resources below are not exhaustive, but may be a good starting point for those who whish to dive deeper in the topic of pointcloud processing with Python.
+
+### Software
+
+Libraries (in alphabetical order):
+
+- **CGAL**, an open-source library for efficient and reliable geometric algorithms (in C++, with Python bidings)
+- **CloudComPy**, a Python wrapper for CloudCompare (see below)
+- **Open3D**, an open-source library for 3D data processing (in C++ and Python, with a 3D viewer app)
+- **PCL**, a standalone, large scale, open project for 2D/3D image and pointcloud processing (in C++, with Python bidings)
+- **PDAL**, an open-source library for translating and manipulating pointcloud data (in C++, with Python support)
+- **PyMeshLab**, a Python library that interfaces to MeshLab (see below)
+- **PyntCloud**, a Python library for working with 3D point clouds leveraging the power of the Python scientific stack
+- **PyVista**, a library providing a pythonic interface to VTK (see below)
+- **VTK**, an open-source software for manipulating and displaying scientific data (in C++, with wrappers in Python, Java and Tcl)
+
+Applications (in alphabetical order):
+
+- **Blender**, an open-source  3D computer graphics software that may be used to visualize and process pointclouds (with Python scripting capabilities)
+- **CloudCompare**, an open-source 3D pointcloud (and triangular mesh) processing software (with Python scripting capabilities through **CloudComPy**)
+- **MeshLab**, an open-source 3D triangular meshes (and pointclouds) processing and editing software (with Python scripting capabilities through **PyMeshLab**)
+- **ParaView**, an open-source visualization application (with Python scripting capabilities)
+
+### Resources 
+
+Books (in reverse chronological order):
+- Poux, F. (2025). *3D Data Science with Python*. O'Reilly Media.
+- Liu, S., Zhang, M., Kadam, P., & Kuo, C. C. J. (2021). *3D Point Cloud Analysis: Traditional, Deep Learning, and Explainable Machine Learning Methods*. Springer.
+- Vosselman, G., & Maas, H. G. (2010). *Airborne and terrestrial laser scanning*. Whittles Publishing.
+- Samet, H. (2006). *Foundations of multidimensional and metric data structures*. Morgan Kaufmann.
+- Schneider, P., & Eberly, D. H. (2002). *Geometric tools for computer graphics*. Elsevier.
+- Goulette, F. (1999). *Modélisation 3D automatique : outils de géométrie différentielle*. Presses des Mines.
+
+Videos (in alphabetical order):
+- CloudCompare playlist on Daniel Girardeau-Montaut YouTube channel www.youtube.com/@danielgirardeau-montaut9044 (last accessed in March 2026)
+- Florent Poux YouTube channel: www.youtube.com/@FlorentPoux (last accessed in March 2026)
+
+## Reusing and distributing
+
+You are free to share and adapt the content of these notebooks as long as you give appropriate credit and do not use it for commercial purposes. You are free to use, modify, and distribute the code contained in these notebooks as you wish. You can view the full [license here](LICENSE.md).
+
+An example of citation using BibTeX:
+
+    @unpublished{gregorio2024tutorials,
+         author={Grégorio, Jean-Loup},
+         title={Tutorials for pointcloud processing in Python},
+         year={2026},
+    }
