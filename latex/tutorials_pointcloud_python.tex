@@ -18,6 +18,8 @@
     \usepackage{caption}
     \DeclareCaptionFormat{nocaption}{}
     \captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+    
+    \newcounter{none} % Fix error with Pandoc \def\LTcaptype{none}
 
     \usepackage{float}
     \floatplacement{figure}{H} % forces figures to be placed at the correct location
@@ -405,28 +407,32 @@
 \input{introduction.tex}
 \tableofcontents
 \pagebreak
-\input{0.basics/0.basics.tex}
+\input{00.basics/00.basics.tex}
 \pagebreak
-\input{1.transformations/1.transformations.tex}
+\input{01.transformations/01.transformations.tex}
 \pagebreak
-\input{2.spatial_indexing/2.spatial_indexing.tex}
+\input{02.spatial_indexing/02.spatial_indexing.tex}
 \pagebreak
-\input{3.subsampling/3.subsampling.tex}
+\input{03.subsampling/03.subsampling.tex}
 \pagebreak
-\input{4.cleaning/4.cleaning.tex}
+\input{04.cleaning/04.cleaning.tex}
 \pagebreak
-\input{5.normals_and_curvatures/5.normals_and_curvatures.tex}
+\input{05.normals_and_curvatures/05.normals_and_curvatures.tex}
 \pagebreak
-\input{6.descriptors/6.descriptors.tex}
+\input{06.descriptors/06.descriptors.tex}
 \pagebreak
-\input{7.segmentation/7.segmentation.tex}
+\input{07.segmentation/07.segmentation.tex}
 \pagebreak
-\input{8.primitive_fitting/8.primitive_fitting.tex}
+\input{08.primitive_fitting/08.primitive_fitting.tex}
 \pagebreak
-\input{9.registration/9.registration}
+\input{09.registration/09.registration.tex}
+\pagebreak
+\input{10.machine_learning/10.machine_learning.tex}
 \pagebreak
 \input{going_further.tex}
 \pagebreak
 \printbibliography[heading=bibintoc]
-\pagebreak
+\newpage
+~
+\thispagestyle{empty}
 \end{document}

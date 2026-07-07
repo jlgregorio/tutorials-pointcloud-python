@@ -32,7 +32,7 @@ The code is in `python` and relies on `numpy`, `scipy`, `matplotlib`, `scikit-le
 
 These dependencies may be installed with `pip` with
 
-    pip install numpy scipy matplotlib jupyterlab
+    pip install numpy scipy matplotlib scikit-learn jupyterlab
 
 or via `conda` with
 
