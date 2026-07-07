@@ -14,29 +14,29 @@ Tutorials are broken down as follows:
 1. [Spatial transformations](1.transformations.ipynb): translations, rotations, reflections & scaling.
 2. [Spatial indexing](2.spatial_indexing.ipynb): voxel grids, octrees & kd-trees.
 3. [Subsampling](3.subsampling.ipynb): random, stride, voxel, octree, FPS, radius & Poisson.
-4. [Cleaning](4.cleaning.ipynb): outlier removal & denoising
+4. [Cleaning](4.cleaning.ipynb): outlier removal & denoising.
 5. [Normals and curvatures](5.normals_and_curvatures.ipynb): normals & curvatures.
 6. [Descriptors](6.descriptors.ipynb): eigenvalue-based, PFH, FPFH & SHOT.
 7. [Segmentation](7.segmentation.ipynb): region growing, Hough Transform, RANSAC & graph-based.
 8. [Primitive fitting](8.primitive_fitting.ipynb): plane, sphere, cylinder, cone & torus.
 9. [Registration](9.registration.ipynb): corresponding sets, Iterative Closest Point & global alignment.
+10. [Machine learning](10.machine_learning.ipynb): outlier removal, object & semantic segmentation.
 
 To do list:
-10. Machine learning
 11. Deep learning
 
 
 ## Dependencies
 
-The code is in `python` and relies on `numpy`, `scipy`, `matplotlib`, and `jupyterlab`.
+The code is in `python` and relies on `numpy`, `scipy`, `matplotlib`, `scikit-learn` and `jupyterlab`.
 
 These dependencies may be installed with `pip` with
 
-    pip install numpy scipy matplotlib jupyterlab
+    pip install numpy scipy matplotlib scikit-learn jupyterlab
 
 or via `conda` with
 
-    conda install numpy scipy matplotlib jupyterlab
+    conda install numpy scipy matplotlib scikit-learn jupyterlab
 
 JupyterLab may be started using the terminal or Anaconda prompt simply by typing
 
