@@ -78,8 +78,10 @@ Books (in reverse chronological order):
 - Goulette, F. (1999). *Modélisation 3D automatique : outils de géométrie différentielle*. Presses des Mines.
 
 Videos (in alphabetical order):
-- CloudCompare playlist on Daniel Girardeau-Montaut YouTube channel www.youtube.com/@danielgirardeau-montaut9044 (last accessed in March 2026)
-- Florent Poux YouTube channel: www.youtube.com/@FlorentPoux (last accessed in March 2026)
+- CVPR 2024 Tutorial: *All You Need To Know About Point Cloud Understanding*. https://cvpr.thecvf.com/virtual/2024/tutorial/23725 (last accessed in August 2026)
+- CVPR 2025 Tutorial: *The 2nd Point Cloud Tutorial: All You Need To Know About 3D Point Cloud*. https://cvpr.thecvf.com/virtual/2025/tutorial/35903 (last accessed in August 2026)
+- CloudCompare playlist on Daniel Girardeau-Montaut YouTube channel https://www.youtube.com/@danielgirardeau-montaut9044 (last accessed in August 2026)
+- Florent Poux YouTube channel: https://www.youtube.com/@FlorentPoux (last accessed in August 2026)
 
 ## Reusing and distributing
 
@@ -87,7 +89,7 @@ You are free to share and adapt the content of these notebooks as long as you gi
 
 An example of citation using BibTeX:
 
-    @unpublished{gregorio2024tutorials,
+    @unpublished{gregorio2026tutorials,
          author={Grégorio, Jean-Loup},
          title={Tutorials for pointcloud processing in Python},
          year={2026},
